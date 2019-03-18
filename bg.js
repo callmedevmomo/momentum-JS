@@ -12,7 +12,6 @@ function paintImage(imgNumber){
     image.src=`images/${imgNumber + 1}.jpg`;
     image.classList.add("bgImage")
     body.appendChild(image);
-    image.prepend("loadend",handleImgLoad);
 }
 function genRandom(){
     const number = Math.floor(Math.random()*IMG_NUMBER);
