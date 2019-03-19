@@ -1,6 +1,6 @@
 const clockContainer = document.querySelector(".js-clock"),
   clockTitle = clockContainer.querySelector("h1");
-
+// Container   <div class="js-clock"> , clockTitle <h1>00:00</h1>
 function getTime() {
   const date = new Date();
   const minutes = date.getMinutes();

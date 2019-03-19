@@ -26,7 +26,7 @@ body{
 .js-greetings{
    font-size:45px;
    color:#353b48;
-   animation: fadeIn 4s linear;
+   animation: fadeIn 3s linear;
 }
   
   .btn {
